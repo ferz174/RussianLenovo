@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Информация о версии</string>
+    <string name="productsversion">Версия изделия:</string>
+    <string name="hardversion">Версия аппаратного обеспечения:</string>
+    <string name="softversion">Версия программного обеспечения:</string>
+    <string name="frameworkversion">Версия Framework:</string>
+    <string name="osversion">Версия операционной системы:</string>
+    <string name="modemversion">Версия модема связи:</string>
+</resources>

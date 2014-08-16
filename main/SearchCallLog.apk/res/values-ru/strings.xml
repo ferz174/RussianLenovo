@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Поиск в журнале вызовов!</string>
+    <string name="app_name">Поиск в журнале вызовов</string>
+    <string name="search_description">Поиск в журнале вызовов</string>
+    <string name="search_hint">Поиск в журнале вызовов</string>
+    <string name="lable_search">Поиск</string>
+    <string name="recentCalls_empty">Журнал вызовов пуст.</string>
+    <string name="unknown">Неизвестно</string>
+</resources>

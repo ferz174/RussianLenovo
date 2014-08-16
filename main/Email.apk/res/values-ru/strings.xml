@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="build_number">20080722-0001</string>
+    <string name="permission_read_attachment_label">управление вложениями электронной почты</string>
+    <string name="permission_read_attachment_desc">Позволяет приложению открывать вложения электронной почты.</string>
+    <string name="permission_access_provider_label">доступ к поставщику данных электронной почты</string>
+    <string name="permission_access_provider_desc">Позволяет приложению получать доступ к базе данных электронной почты, включая полученные, отправленные сообщения, к именам пользователей и паролям.</string>
+    <string name="app_name">Электронная почта</string>
+    <string name="compose_title">Написать</string>
+    <string name="debug_title">Отладка</string>
+    <string name="next_action">Далее</string>
+    <string name="okay_action">ОК</string>
+    <string name="cancel_action">Отмена</string>
+    <string name="previous_action">Назад</string>
+    <string name="send_action">Отправить</string>
+    <string name="reply_action">Ответить</string>
+    <string name="reply_all_action">Ответить всем</string>
+    <string name="delete_action">Удалить</string>
+    <string name="forward_action">Переслать</string>
+    <string name="favorite_action">Избранные</string>
+    <string name="done_action">Готово</string>
+    <string name="create_action">Добавить</string>
+    <string name="delete_quick_response_action">Удалить</string>
+    <string name="quick_responses_empty_view">Нет быстрых ответов</string>
+    <string name="discard_action">Сброс</string>
+    <string name="save_draft_action">Сохранить черновик</string>
+    <string name="show_quick_text_list_dialog_action">Вставить быстрый ответ</string>
+    <string name="read_action">Отметить как прочитанное</string>
+    <string name="unread_action">Отметить как непрочитанное</string>
+    <string name="set_star_action">Добавить в избранные</string>
+    <string name="remove_star_action">Удалить из избранных</string>
+    <string name="refresh_action">Обновить</string>
+    <string name="add_account_action">Добавить аккаунт</string>
+    <string name="compose_action">Написать</string>
+    <string name="search_action">Поиск</string>
+    <string name="account_settings_action">Настройки аккаунта</string>
+    <string name="settings_action">Настройки</string>
+    <string name="mailbox_settings_action">Настройки синхронизации</string>
+    <string name="mark_as_unread_action">Отметить как непрочитанное</string>
+    <string name="move_action">Переместить</string>
+    <string name="plus_cc_label">+ Копия</string>
+    <string name="add_cc_bcc_menu">Добавить копию</string>
+    <string name="add_file_attachment">Прикрепить файл</string>
+    <string name="add_contacts_people">Добавить контакт</string>
+    <string name="close_action">Закрыть</string>
+    <string name="message_list_send_pending_messages_action">Отправить все сообщения</string>
+    <string name="choose_attachment_dialog_title">Выбрать приложение</string>
+    <string name="move_to_folder_dialog_title">Переместить в папку</string>
+    <string name="status_loading_messages">Загрузка почты...</string>
+    <string name="status_network_error">Ошибка соединения.</string>
+    <string name="error_loading_message_body">Не удалось загрузить текст письма. Возможно оно слишком большое для просмотра.</string>
+    <string name="cannot_move_protocol_not_supported_toast">Перемещение не поддерживается для аккаунтов с POP3.</string>
+    <string name="cannot_move_multiple_accounts_toast">Не может быть перемещено - находится в разных аккаунтах.</string>
+    <string name="cannot_move_special_mailboxes_toast">Сообщения не могут быть перемещены из папок черновики, исходящие и отправленные.</string>
+    <string name="notification_to_account">%1$s</string>
+    <string name="notification_multiple_new_messages_fmt">Новых электронных писем: %1$d</string>
+    <string name="account_name_display_all">Все аккаунты</string>
+    <string name="mailbox_name_server_inbox">Входящие</string>
+    <string name="mailbox_name_server_outbox">Исходящие</string>
+    <string name="mailbox_name_server_drafts">Черновики</string>
+    <string name="mailbox_name_server_trash">Корзина</string>
+    <string name="mailbox_name_server_sent">Отправленные</string>
+    <string name="mailbox_name_server_junk">Нежелательные</string>
+    <string name="mailbox_name_display_inbox">Входящие</string>
+    <string name="mailbox_name_display_outbox">Исходящие</string>
+    <string name="mailbox_name_display_drafts">Черновики</string>
+    <string name="mailbox_name_display_trash">Корзина</string>
+    <string name="mailbox_name_display_sent">Отправленные</string>
+    <string name="mailbox_name_display_junk">Нежелательные</string>
+    <string name="mailbox_name_display_unread">Непрочитанные</string>
+    <string name="picker_mailbox_name_all_unread">Входящие (непрочитанные)</string>
+    <string name="picker_mailbox_name_all_inbox">Входящие (все)</string>
+    <string name="picker_combined_view_fmt">Комбинированный вид (%s)</string>
+    <string name="debug_version_fmt">Версия: %s</string>
+    <string name="debug_enable_debug_logging_label">Вести дополнительный журнал отладки (log)?</string>
+    <string name="debug_enable_exchange_logging_label">Вести журнал обмена (log)? (подробный)</string>
+    <string name="debug_enable_exchange_file_logging_label">Вести журнал обмена на SD-карту (log)?</string>
+    <string name="debug_clear_webview_cache">Очистить кэш WebView</string>
+    <string name="debug_disable_graphics_acceleration_label">Отключение аппаратного ускорения графики</string>
+    <string name="debug_force_one_minute_refresh_label">Принудительное ежеминутное обновление для POP/IMAP</string>
+    <string name="debug_enable_strict_mode_label">Включить безопасный режим (вести журнал (log))</string>
+    <string name="account_folder_list_summary_inbox">Входящие</string>
+    <string name="account_folder_list_summary_starred">Избранные</string>
+    <string name="account_folder_list_summary_drafts">Черновики</string>
+    <string name="account_folder_list_summary_outbox">Исходящие</string>
+    <string name="mailbox_list_account_selector_combined_view">Комбинированный вид</string>
+    <string name="mailbox_list_account_selector_show_all_folders">Показать все папки</string>
+    <string name="mailbox_list_account_selector_account_header">Аккаунты</string>
+    <string name="mailbox_list_account_selector_mailbox_header_fmt">Актуальные (%s)</string>
+    <string name="mailbox_list_user_mailboxes">Все папки</string>
+    <string name="mailbox_list_recent_mailboxes">Недавние папки</string>
+    <string name="message_subject_description">Тема</string>
+    <string name="message_is_empty_description">Без темы</string>
+    <string name="message_list_load_more_messages_action">Загрузить еще сообщения</string>
+    <string name="message_list_no_messages">Нет электронных писем</string>
+    <string name="message_compose_to_hint">Кому</string>
+    <string name="message_compose_cc_hint">Копия</string>
+    <string name="message_compose_bcc_hint">Копия</string>
+    <string name="message_compose_subject_hint">Тема</string>
+    <string name="message_compose_from_label">От кого:</string>
+    <string name="to">Кому</string>
+    <string name="cc">Копия</string>
+    <string name="bcc">Копия</string>
+    <string name="subject_hint">Тема</string>
+    <string name="body_hint">Текст</string>
+    <string name="message_compose_fwd_header_fmt">"
+
+-------- Сообщение --------
+Тема: %1$s
+Отправитель: %2$s
+Получатель: %3$s
+Копия: %4$s
+
+"</string>
+    <string name="message_compose_reply_header_fmt">"
+
+Отправитель %s:
+
+"</string>
+    <string name="message_compose_quoted_text_label">Цитируемый текст</string>
+    <string name="message_compose_include_quoted_text_checkbox_label">Включенный текст</string>
+    <string name="message_compose_error_no_recipients">Необходимо добавить получателя.</string>
+    <string name="message_compose_error_invalid_email">Некоторые адреса электронной почты являются недопустимыми.</string>
+    <string name="message_compose_attachment_size">Слишком большое вложение.</string>
+    <string name="message_compose_attachment_size_not_measurable">Файл не безопасен для вложения.</string>
+    <string name="message_compose_insert_quick_response_list_title">Вставка быстрого ответа</string>
+    <string name="message_compose_display_name">%1$s и еще %2$d</string>
+    <string name="message_view_to_label">Кому:</string>
+    <string name="message_view_cc_label">Копия:</string>
+    <string name="message_view_bcc_label">Копия:</string>
+    <string name="message_view_date_label">Дата:</string>
+    <string name="message_view_from_label">От кого:</string>
+    <string name="message_view_subject_label">Тема:</string>
+    <string name="message_view_attachment_view_action">Просмотр</string>
+    <string name="message_view_attachment_install_action">Установить</string>
+    <string name="message_view_attachment_play_action">Воспроизвести</string>
+    <string name="message_view_attachment_load_action">Загрузить</string>
+    <string name="message_view_attachment_info_action">Информация</string>
+    <string name="message_view_attachment_save_action">Сохранить</string>
+    <string name="message_view_attachment_saved">Сохранено</string>
+    <string name="message_view_attachment_cancel_action">Остановить</string>
+    <string name="message_view_status_attachment_saved">Вложение сохранено как %s.</string>
+    <string name="message_view_status_attachment_not_saved">Не удалось сохранить вложение.</string>
+    <string name="message_view_attachment_background_load">Примечание: одно или несколько вложений в пересылаемом сообщении будет загружено до отправки.</string>
+    <string name="message_view_show_message_action">Сообщение</string>
+    <string name="message_view_show_invite_action">Пригласить</string>
+    <string name="message_view_show_pictures_action">Показать изображения</string>
+    <string name="message_view_always_show_pictures_button">Всегда показывать</string>
+    <string name="message_view_always_show_pictures_prompt">Всегда показывать изображения этого отправителя</string>
+    <string name="message_view_always_show_pictures_confirmation">Изображения этого отправителя будет отображаться автоматически..</string>
+    <string name="message_view_invite_view">Посмотреть в календаре</string>
+    <string name="message_view_invite_title">Приглашение из календаря</string>
+    <string name="message_view_invite_text">Принять?</string>
+    <string name="message_view_invite_accept">" Да"</string>
+    <string name="message_view_invite_maybe">" Возможно"</string>
+    <string name="message_view_invite_decline">" Нет"</string>
+    <string name="message_view_invite_toast_yes">Статус приглашения - принято.</string>
+    <string name="message_view_invite_toast_maybe">Статус приглашения - возможно.</string>
+    <string name="message_view_invite_toast_no">Статус приглашения - отклонено.</string>
+    <string name="message_view_show_details">Показать детпли</string>
+    <string name="message_view_message_details_dialog_title">Детали сообщения</string>
+    <string name="attachment_info_dialog_default_title">Информация о вложении</string>
+    <string name="attachment_info_dialog_wifi_title">Требуется соединение WLAN</string>
+    <string name="attachment_info_wifi_settings">Настройки WLAN</string>
+    <string name="attachment_info_application_settings">Настройки приложения</string>
+    <string name="attachment_info_unknown">Не удалось открыть вложение.</string>
+    <string name="attachment_info_malware">Не удалось сохранить или открыть вложение - вероятность содержания вредоносного ПО.</string>
+    <string name="attachment_info_policy">Не удалось сохранить или открыть вложение из-за политики безопасности аккаунта.</string>
+    <string name="attachment_info_wifi_only">Большое вложение для передачи данных по мобильной сети. Рекомендуется загрузить при подключении WLAN.</string>
+    <string name="attachment_info_no_intent">Не удалось найти приложений для просмотра вложения. Возможно, необходимо установить его из Play Маркета.</string>
+    <string name="attachment_info_sideload_disabled">Вложение является приложением. Для разрешения установки приложений из неизвестных источников - Настройки > Безопасность > Неизвестные источники.</string>
+    <string name="attachment_info_apk_install_disabled">Приложение не может быть установлено из электронного письма. Необходимо сохранить его, затем установить из Загрузок.</string>
+    <string name="attachment_not_found">Не удалось загрузить вложение.</string>
+    <string name="message_decode_error">Ошибка декодирования сообщения.</string>
+    <string name="eml_view_title">Просмотр %s</string>
+    <string name="message_delete_dialog_title" />
+    <string name="message_discarded_toast">Сброс сообщения.</string>
+    <string name="message_saved_toast">Сообщение сохранено как черновик.</string>
+    <string name="message_view_display_attachment_toast">Не удалось отобразить вложение.</string>
+    <string name="message_view_load_attachment_failed_toast">Не удалось загрузить вложение \" %s\".</string>
+    <string name="message_view_parse_message_toast">Загрузка сообщения...</string>
+    <string name="forward_download_failed_ticker">Не удалось переслать одно или несколько вложений.</string>
+    <string name="forward_download_failed_title">Не удалось переслать вложение.</string>
+    <string name="login_failed_ticker">Ошибка авторизации %s.</string>
+    <string name="login_failed_title">Ошибка авторизации</string>
+    <string name="message_view_move_to_newer">Новые</string>
+    <string name="message_view_move_to_older">Недавние</string>
+    <string name="message_list_subject_snippet_divider">" — "</string>
+    <string name="account_setup_basics_title">Настройки аккаунта</string>
+    <string name="account_setup_basics_exchange_title">Добавить аккаунт обмена данными</string>
+    <string name="account_setup_basics_exchange_title_alternate">Добавить аккаунт обмена данными ActiveSync</string>
+    <string name="account_setup_basics_headline">Аккаунт электронной почты</string>
+    <string name="accounts_welcome">Настройка электронной почты:</string>
+    <string name="accounts_welcome_exchange">Настройка аккаунта обмена данными:</string>
+    <string name="accounts_welcome_exchange_alternate">Настройка аккаунта обмена данными ActiveSync:</string>
+    <string name="account_setup_basics_email_label">Адрес электронной почты</string>
+    <string name="account_setup_basics_password_label">Пароль</string>
+    <string name="account_setup_basics_default_label">Отправлять сообщения с этого аккаунта по умолчанию.</string>
+    <string name="account_setup_basics_manual_setup_action">Ручная настройка</string>
+    <string name="account_setup_username_password_toast">Ввести существующие адрес электронной почты и пароль.</string>
+    <string name="account_duplicate_dlg_title">Дублировать аккаунт</string>
+    <string name="account_duplicate_dlg_message_fmt">Логин используется аккаунтом \"%s\".</string>
+    <string name="account_password_spaces_error">Пароль начинается или кончается с пробела. Некоторые сервера не поддерживают пароли с пробелами.</string>
+    <string name="account_setup_check_settings_retr_info_msg">Получение сведений аккаунта...</string>
+    <string name="account_setup_check_settings_check_incoming_msg">Проверка настроек сервера входящей почты...</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Проверка настроек сервера исходящей почты...</string>
+    <string name="account_setup_names_title">Настройки аккаунта</string>
+    <string name="account_setup_names_headline">Аккаунт настроен!</string>
+    <string name="account_setup_names_account_name_label">Название аккаунта (по желанию)</string>
+    <string name="account_setup_names_user_name_label">Имя в исходящих сообщениях</string>
+    <string name="account_setup_names_user_name_empty_error">Поле не может быть пустым.</string>
+    <string name="account_setup_account_type_title">Настройки аккаунта</string>
+    <string name="account_setup_account_type_headline">Тип аккаунта</string>
+    <string name="account_setup_account_type_instructions">Тип аккаунта?</string>
+    <string name="account_setup_account_type_pop_action">POP3</string>
+    <string name="account_setup_account_type_imap_action">IMAP</string>
+    <string name="account_setup_account_type_exchange_action">Обмен данными</string>
+    <string name="account_setup_account_type_exchange_action_alternate">Обмен данными Microsoft ActiveSync</string>
+    <string name="account_setup_incoming_title">Настройки аккаунта</string>
+    <string name="account_setup_incoming_headline">Настройки сервера входящих сообщений</string>
+    <string name="account_setup_incoming_username_label">Логин</string>
+    <string name="account_setup_incoming_password_label">Пароль</string>
+    <string name="account_setup_incoming_pop_server_label">Сервер POP3</string>
+    <string name="account_setup_incoming_imap_server_label">Сервер IMAP</string>
+    <string name="account_setup_incoming_port_label">Порт</string>
+    <string name="account_setup_incoming_security_label">Тип безопасности</string>
+    <string name="account_setup_incoming_security_none_label">Без защиты</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (принимать сертификаты)</string>
+    <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (принимать сертификаты)</string>
+    <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+    <string name="account_setup_incoming_delete_policy_label">Удалять сообщения с сервера</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Не удалять</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">При удалении из входящих</string>
+    <string name="account_setup_incoming_imap_path_prefix_label">Путь к каталогу IMAP</string>
+    <string name="account_setup_incoming_imap_path_prefix_hint">По желанию</string>
+    <string name="account_setup_outgoing_title">Настройки аккаунта</string>
+    <string name="account_setup_outgoing_headline">Настройки сервера исходящих сообщений</string>
+    <string name="account_setup_outgoing_smtp_server_label">Сервер SMTP</string>
+    <string name="account_setup_outgoing_port_label">Порт</string>
+    <string name="account_setup_outgoing_security_label">Тип безопасности</string>
+    <string name="account_setup_outgoing_require_login_label">Запрос входа.</string>
+    <string name="account_setup_outgoing_username_label">Логин</string>
+    <string name="account_setup_outgoing_password_label">Пароль</string>
+    <string name="account_setup_exchange_title">Настройки аккаунта</string>
+    <string name="account_setup_exchange_headline">Настройки сервера</string>
+    <string name="account_setup_exchange_server_label">Сервер</string>
+    <string name="account_setup_exchange_username_label">Домен\\Логин</string>
+    <string name="account_setup_exchange_ssl_label">Использовать защищенное соединение (SSL)</string>
+    <string name="account_setup_exchange_trust_certificates_label">Принимать все сертификаты SSL</string>
+    <string name="account_setup_exchange_certificate_title">Сертификат клиента</string>
+    <string name="account_setup_exchange_select_certificate">Выбрать</string>
+    <string name="account_setup_exchange_use_certificate">Использовать сертификат клиента</string>
+    <string name="account_setup_exchange_remove_certificate">Удалить</string>
+    <string name="account_setup_exchange_no_certificate">Не используется</string>
+    <string name="account_setup_exchange_device_id_label">Идентификатор устройства</string>
+    <string name="account_setup_options_title">Настройки аккаунта</string>
+    <string name="account_setup_options_headline">Настройки аккаунта</string>
+    <string name="account_setup_options_mail_check_frequency_label">Периодичность проверки почты</string>
+    <string name="account_setup_options_mail_check_frequency_never">Не проверять</string>
+    <string name="account_setup_options_mail_check_frequency_push">Автоматически (принудительно)</string>
+    <string name="account_setup_options_mail_check_frequency_5min">Каждые 5 минут</string>
+    <string name="account_setup_options_mail_check_frequency_10min">Каждые 10 минут</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Каждые 15 минут</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Каждые 30 минут</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Каждый час</string>
+    <string name="account_setup_options_default_label">Отсылать почту с выбранного аккаунта по умолчанию.</string>
+    <string name="account_setup_options_notify_label">Сообщать о входящих сообщениях.</string>
+    <string name="account_setup_options_sync_contacts_label">Синхронизировать контакты аккаунта.</string>
+    <string name="account_setup_options_sync_calendar_label">Синхронизировать календарь аккаунта.</string>
+    <string name="account_setup_options_sync_email_label">Синхронизировать электронную почту аккаунта.</string>
+    <string name="account_setup_options_background_attachments_label">Автоматически загружать вложения при подключении к WLAN.</string>
+    <string name="account_setup_failed_dlg_title">Не удалось завершить настройку</string>
+    <string name="account_setup_options_mail_window_label">Период синхронизации</string>
+    <string name="account_setup_options_mail_window_auto">Авто</string>
+    <string name="account_setup_options_mail_window_1day">1 д.</string>
+    <string name="account_setup_options_mail_window_3days">3 д.</string>
+    <string name="account_setup_options_mail_window_1week">1 нед.</string>
+    <string name="account_setup_options_mail_window_2weeks">2 нед.</string>
+    <string name="account_setup_options_mail_window_1month">1 мес</string>
+    <string name="account_setup_options_mail_window_all">Все</string>
+    <string name="account_setup_options_mail_window_default">Использовать аккаунт по умолчанию</string>
+    <string name="account_setup_failed_dlg_auth_message">Неправилный логин или пароль.</string>
+    <string name="account_setup_failed_dlg_auth_message_fmt">"Неправилный логин или пароль.
+(%s)"</string>
+    <string name="account_setup_failed_dlg_certificate_message">Не удалось установить защищенное подключение к серверу.</string>
+    <string name="account_setup_failed_dlg_certificate_message_fmt">"Не удалось установить защищенное подключение к серверу.
+(%s)"</string>
+    <string name="account_setup_failed_certificate_required">Необходим сертификат клиента. Подключиться к серверу с сертификатом клиента?</string>
+    <string name="account_setup_failed_certificate_inaccessible">Сертификат является недействительным или недоступен.</string>
+    <string name="account_setup_failed_check_credentials_message">Ошибка сервера. Необходимо проверить логин или пароль и повторить попытку.</string>
+    <string name="account_setup_failed_dlg_server_message">Не удалось подключиться к серверу.</string>
+    <string name="account_setup_failed_dlg_server_message_fmt">"Не удалось подключиться к серверу.
+(%s)"</string>
+    <string name="account_setup_failed_tls_required">TLS не поддерживается сервером.</string>
+    <string name="account_setup_failed_auth_required">Методы аутентификации не поддерживаются сервером.</string>
+    <string name="account_setup_failed_security">Не удалось установить соединение с сервером из-за ошибки безопасности.</string>
+    <string name="account_setup_failed_ioerror">Не удалось установить соединение с сервером.</string>
+    <string name="account_setup_failed_protocol_unsupported">Введен неправильный адрес сервера или сервер запрашивает версию протокола, которая не поддерживается.</string>
+    <string name="account_setup_failed_access_denied">Недостаточно прав на синхронизацию с сервером. Необходимо обратиться к администратору сервера для получения дополнительной информации.</string>
+    <string name="account_setup_security_required_title">Удаленное управление безопасностью</string>
+    <string name="account_setup_security_policies_required_fmt">Сервер %s требует разрешения на удаленный контроль некоторыми функциями безопасности устройства. Завершить настройку этого аккаунта?</string>
+    <string name="account_setup_failed_security_policies_unsupported">Сервер запрашивает несколько функций безопасности, которые не поддерживаются устройством, включая: %s</string>
+    <string name="account_setup_username_uneditable_error">Не удалось изменить логин аккаунта. Чтоб добавить аккаунт с другим именем, нажать - Добавить аккаунт.</string>
+    <string name="disable_admin_warning">Внимание: Деактивируя полномочия администратора приложения, устройство удалит все аккаунты, которые требуют его, вместе с электронной почтой, контактами, событиями календаря и другими данными.</string>
+    <string name="account_security_dialog_title">Обновление системы безопасности</string>
+    <string name="account_security_dialog_content_fmt">Аккаунт %s требует обновления настроек безопасности.</string>
+    <string name="security_notification_ticker_fmt">Аккаунт \"%s\" требует обновления настроек безопасности.</string>
+    <string name="security_notification_content_title">Требуется обновление для системы безопасности.</string>
+    <string name="account_security_title">Безопасность устройства</string>
+    <string name="account_security_policy_explanation_fmt">Сервер %s требует разрешения удаленного управления некоторыми функциями безопасности устройства.</string>
+    <string name="account_setup_failed_dlg_edit_details_action">Изменить данные</string>
+    <string name="password_expire_warning_ticker_fmt">\"%s\" требует, изменения PIN-кода блокировки экрана или пароль.</string>
+    <string name="password_expire_warning_content_title">Истекает срок пароля блокировки экрана</string>
+    <string name="password_expired_ticker">Истек срок пароля или PIN-кода блокировки экрана.</string>
+    <string name="password_expired_content_title">Истек срок пароля блокировки экрана.</string>
+    <string name="password_expire_warning_dialog_title">Истекает срок пароля блокировки экрана</string>
+    <string name="password_expire_warning_dialog_content_fmt">Необходимо изменить пароль или PIN-код блокировки экрана, иначе данные аккаунта %s будут удалены. Изменить сейчас?</string>
+    <string name="password_expired_dialog_title">Истек срок пароля блокировки экрана</string>
+    <string name="password_expired_dialog_content_fmt">Данные аккаунта %s удаляются с устройства. Для ее восстановления - изменить PIN-код или пароль блокировки экрана. Изменить сейчас?</string>
+    <string name="account_settings_exit_server_settings">Отменить несохраненные изменения?</string>
+    <string name="account_settings_login_dialog_title">Ошибка авторизации</string>
+    <string name="account_settings_login_dialog_content_fmt">Логин или пароль %s неправильны. Обновить сейчас?</string>
+    <string name="account_settings_default_label">Аккаунт по умолчанию</string>
+    <string name="account_settings_default_summary">Отправлять сообщения с этого аккаунта по умолчанию</string>
+    <string name="account_settings_background_attachments_label">Автозагрузка вложений</string>
+    <string name="account_settings_background_attachments_summary">Автоматически загружать вложения последних сообщений по WLAN</string>
+    <string name="account_settings_notify_label">Уведомления электронной почты</string>
+    <string name="account_settings_summary">Периодичность синхронизации, уведомления, и т.д.</string>
+    <string name="account_settings_notify_summary">Оповещать при поступлении новых сообщений</string>
+    <string name="account_settings_mail_check_frequency_label">Периодичность проверки почты</string>
+    <string name="account_settings_incoming_label">Сервер входящих сообщений</string>
+    <string name="account_settings_incoming_summary">Логин, пароль, и другие настройки сервера</string>
+    <string name="account_settings_outgoing_label">Сервер исходящих сообщений</string>
+    <string name="account_settings_outgoing_summary">Логин, пароль, и другие настройки сервера</string>
+    <string name="account_settings_description_label">Название аккаунта</string>
+    <string name="account_settings_name_label">Имя</string>
+    <string name="account_settings_signature_label">Автоподпись</string>
+    <string name="account_settings_edit_quick_responses_label">Быстрые ответы</string>
+    <string name="account_settings_edit_quick_responses_summary">Добавить в сообщения частовставляемый текст</string>
+    <string name="account_settings_signature_hint">Автоматически добавлять подпись к отправляемым сообщениям</string>
+    <string name="account_settings_notifications">Настройки уведомлений</string>
+    <string name="account_settings_data_usage">Передача данных</string>
+    <string name="edit_quick_response_dialog">Изменить быстрый ответ</string>
+    <string name="save_action">Сохранить</string>
+    <string name="account_settings_sync_contacts_enable">Синхронизировать контакты</string>
+    <string name="account_settings_sync_contacts_summary">Синхронизировать контакты для аккаунта</string>
+    <string name="account_settings_sync_calendar_enable">Синхронизировать Календарь</string>
+    <string name="account_settings_sync_calendar_summary">Синхронизировать календарь для аккаунта</string>
+    <string name="account_settings_sync_email_enable">Синхронизировать электронную почту</string>
+    <string name="account_settings_sync_email_summary">Синхронизировать электронную почту аккаунта</string>
+    <string name="account_settings_vibrate_when_label">Вибросигнал</string>
+    <string name="account_settings_vibrate_when_summary">Вибросигнал при получении новых сообщений</string>
+    <string name="account_settings_vibrate_when_always">Всегда</string>
+    <string name="account_settings_vibrate_when_silent">В беззвучном</string>
+    <string name="account_settings_vibrate_when_never">Никогда</string>
+    <string name="account_settings_vibrate_when_dlg_title">Вибросигнал</string>
+    <string name="account_settings_ringtone">Выбрать мелодию</string>
+    <string name="account_settings_servers">Настройки серверов</string>
+    <string name="account_delete_dlg_title">Удаление аккаунта</string>
+    <string name="account_delete_dlg_instructions_fmt">Удалить \"%s\"?</string>
+    <string name="account_settings_category_delete_account">Удаление аккаунта</string>
+    <string name="account_settings_delete_account_label">Удалить аккаунт</string>
+    <string name="mailbox_settings_activity_title">Настройки синхронизации</string>
+    <string name="mailbox_settings_activity_title_with_mailbox">Настройки синхронизации (%s)</string>
+    <string name="mailbox_preferences_header">Настройки синхронизации</string>
+    <string name="mailbox_settings_mailbox_check_frequency_label">Периодичность проверки</string>
+    <string name="mailbox_settings_mailbox_sync_window_label">Период синхронизации</string>
+    <string name="account_shortcut_picker_name">Аккаунт электронной почты</string>
+    <string name="account_shortcut_picker_title">Выбрать аккаунт</string>
+    <string name="mailbox_shortcut_picker_title">Выбрать папку</string>
+    <string name="toast_account_not_found">Аккаунт не найден. Возможно он удален.</string>
+    <string name="toast_mailbox_not_found">Папка не найдена. Возможно она удалена.</string>
+    <string name="provider_note_live">Доступ по протоколу POP, позволяющий этой программе подключаться, разрешен только в некоторых аккаунтах Plus. Если не удается войти со своим адресом электронной почты и паролем, скорее всего, аккаунт бесплатный (не Plus). Доступ к аккаунту возможен через браузер.</string>
+    <string name="provider_note_t_online">Перед настройкой аккаунта, необходимо посетить сайт оператора связи и установить пароль для доступа к электронной почте по протоколу POP3.</string>
+    <string name="exchange_name">Корпоративный</string>
+    <string name="exchange_name_alternate">Обмен данными Microsoft ActiveSync</string>
+    <string name="system_account_create_failed">Не удалось создать аккаунт. Повторить попытку.</string>
+    <string name="device_admin_label">Электронная почта</string>
+    <string name="device_admin_description">Включение серверных политик безопасности</string>
+    <string name="gal_searching_fmt">Поиск %s...</string>
+    <string name="settings_activity_title">Настройки</string>
+    <string name="header_label_general_preferences">Общие</string>
+    <string name="category_general_preferences">Приложение</string>
+    <string name="general_preference_auto_advance_label">Автопереход</string>
+    <string name="general_preference_auto_advance_summary">Выбрать экран для перехода после удаления</string>
+    <string name="general_preference_auto_advance_dialog_title">Перейти к</string>
+    <string name="general_preference_auto_advance_newer">Следующему сообщению</string>
+    <string name="general_preference_auto_advance_older">Предыдущему сообщению</string>
+    <string name="general_preference_auto_advance_message_list">Списку сообщений</string>
+    <string name="general_preference_text_zoom_label">Размер текста сообщений</string>
+    <string name="general_preference_text_zoom_dialog_title">Размер текста сообщений</string>
+    <string name="general_preference_text_zoom_tiny">Очень маленький</string>
+    <string name="general_preference_text_zoom_small">Маленкий</string>
+    <string name="general_preference_text_zoom_normal">Нормальный</string>
+    <string name="general_preference_text_zoom_large">Большой</string>
+    <string name="general_preference_text_zoom_huge">Очень большой</string>
+    <string name="general_preference_reply_all_label">Ответить всем</string>
+    <string name="general_preference_reply_all_summary">Сделать \"Ответить всем\" функцией по умолчанию.</string>
+    <string name="general_preferences_clear_trusted_senders_title">Показывать изображения</string>
+    <string name="general_preferences_clear_trusted_senders_summary">Изображения в сообщениях не будут показаны автоматически</string>
+    <string name="trusted_senders_cleared">\"Показывать изображения\" - отключено.</string>
+    <string name="position_of_count">%1$d/%2$s</string>
+    <string name="waitinf_for_sync_message_1">Ожидание синхронизации</string>
+    <string name="waitinf_for_sync_message_2">Синхронизация аккаунта.</string>
+    <string name="widget_other_views">Нажать иконку для изменения.</string>
+    <string name="widget_all_mail">Все входящие</string>
+    <string name="widget_unread">Непрочитанные</string>
+    <string name="widget_starred">Избранные</string>
+    <string name="widget_loading">Загрузка...</string>
+    <string name="widget_touch_to_configure">Нажать для настройки.</string>
+    <string name="widget_no_accounts">Нет ни одного настроенного аккаунта.</string>
+    <string name="more_than_999">999+</string>
+    <string name="search_hint">Поиск в электронной почте</string>
+    <string name="search_mailbox_hint">Поиск в %1$s</string>
+    <string name="search_header_text_fmt">Результаты поиска для: \"%1$s\"</string>
+    <string name="search_slow_warning_title">Ожидание результатов</string>
+    <string name="search_slow_warning_message">Для некоторых серверов требуется больше времени.</string>
+    <string name="action_bar_mailbox_list_title">Папки</string>
+    <string name="long_string">Длиииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииииинный</string>
+    <string name="require_manual_sync_message">Для аккаунта отключена фоновая синхронизация в роуминге.</string>
+    <string name="mobile_memory_full_receive_error">Недостаточно памяти.</string>
+    <string name="mobile_memory_full_edit_error">SD-карта 1 заполнена, не удалось обработать почту.</string>
+    <string name="sdcard_memory_full_error">SD-карта 2 заполнена, необходимо удалить часть файлов.</string>
+    <string name="connection_unavailable">Сеть недоступна.</string>
+    <string name="account_lable_is_empty">Описание аккаунта не может быть пустым</string>
+    <string name="account_name_is_empty">Имя аккаунта не может быть пустым</string>
+    <string name="emails_operations_successful">Электронное письмо отправлено!</string>
+    <string name="compose_send_error">Не удалось отправить электронное письмо.</string>
+    <string name="settings_delete_all_messages">Удалить все электронные письма</string>
+    <string name="delete_all_messages_title">Удалить все электронные письма?</string>
+    <string name="delete_error">Нет электронных писем.</string>
+    <string name="delete_title">Удаление</string>
+    <string name="newer_action">Назад</string>
+    <string name="older_action">Далее</string>
+    <string name="account_warning">Неизвестный тип аккаунта</string>
+    <string name="adding_attachments_title">Добавление вложений</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="cancel_select_all">Отменить выбор</string>
+    <string name="account_name_error">Неверное имя аккаунта!</string>
+    <string name="select_storage_title">Выбор памяти для загрузки</string>
+    <string name="select_storage_sdcard">SD-карта 2</string>
+    <string name="select_storage_internal">SD-карта 1</string>
+    <string name="select_storage_back">Назад</string>
+    <string name="title_too_long">Достигнут предел ввода</string>
+    <string name="io_not_connect_help_info">Примечание: В системе \"Настройки\" меню \"Дополнительно\", открыть \"Мобильные сети\", выбрать другие точки доступа.</string>
+    <string name="delete_message_dialog_title">Удалить или отказаться от сообщения:</string>
+    <string name="delete_message_confirm">Удалить или отказаться от сообщения?</string>
+    <string name="delete_message_dialog_msg">Отказаться от сообщения?</string>
+    <string name="too_many_words">Лимит ввода слов: %1$s</string>
+    <item type="string" name="APKTOOL_DUMMY_01b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01b9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01be">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_01f2">false</item>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <item type="string" name="APKTOOL_DUMMY_01f5">false</item>
+    <string name="application_name">Загрузка с устройства</string>
+    <string name="picasa_default_destination">Альбом для загрузки с устройства</string>
+    <string name="summary_title_uploading">Загрузка</string>
+    <string name="summary_title_finished">Завершенные</string>
+    <string name="summary_title_paused">Приостановлено</string>
+    <string name="summary_subtitle_uploading_format">%1$d%% • %2$d фотографий • %3$d видео</string>
+    <string name="summary_subtitle_counts_format">%1$d фотографий • %2$d видео</string>
+    <string name="summary_subtitle_paused_low_battery">низкий уровень заряда аккумулятора</string>
+    <string name="summary_subtitle_paused_photos_quota">превышено максимальное количество фотографий</string>
+    <string name="summary_subtitle_paused_roaming">роуминг</string>
+    <string name="summary_subtitle_paused_need_wifi">ожидание WLAN</string>
+    <string name="summary_subtitle_paused_need_charger">отложено до зарядки</string>
+    <string name="summary_subtitle_paused_need_network">ожидание зарядки</string>
+    <string name="summary_subtitle_paused_retry_format">повтор через %s</string>
+    <string name="summary_menu_show_pending">Показать незавершенные загрузки</string>
+    <string name="summary_menu_show_finished">Показать завершенные загрузки</string>
+    <string name="menu_view_online">Посмотреть в интернете</string>
+    <string name="menu_show_pending_items">Показать незавершенные загрузки</string>
+    <string name="menu_hide_pending_items">Скрыть незавершенные загрузки</string>
+    <string name="menu_show_completed_items">Показать подробности</string>
+    <string name="menu_hide_completed_items">Скрыть подробности</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="format_date_uploaded">Загружено %s</string>
+    <string name="format_progress_percent">%d%%</string>
+    <string name="account">Аккаунт</string>
+    <string name="upload">Загрузить</string>
+    <string name="uploading_to">Загрузить в <b>%s</b></string>
+    <string name="uploading_for">" для "<b>%s</b></string>
+    <string name="destination_format">%1$s \"%2$s\"</string>
+    <string name="toast_intent_error">Ошибка при инициализации загрузки.</string>
+    <string name="toast_file_error">Файл недоступен.</string>
+    <string name="account_error">Не удалось получить данные аккаунта.</string>
+    <string name="toast_failed_auth">Не удалось войти в аккаунт.</string>
+    <string name="upload_state_queued" />
+    <string name="upload_state_waiting_retry">Ожидание повтора</string>
+    <string name="upload_state_waiting_wifi">Ожидание WLAN</string>
+    <string name="upload_state_uploading">Загрузка</string>
+    <string name="upload_state_failed">Не удалось</string>
+    <string name="upload_state_completed">Завершено</string>
+    <string name="pause_state_running">загрузка</string>
+    <string name="pause_state_manually_paused">приостановлено вручную</string>
+    <string name="pause_state_low_battery">приостановлено - низкий уровень заряда аккумулятора</string>
+    <string name="pause_state_need_charger">приостановлено - отложено до зарядки</string>
+    <string name="pause_state_need_connectivity">приостановлено - ожидание соединения</string>
+    <string name="pause_state_need_photos_quota">приостановлено - превышена квота для Web-альбомов Picasa</string>
+    <string name="pause_state_need_wifi">приостановлено - ожидание WLAN</string>
+    <string name="pause_state_roaming">приостановлено - роуминг</string>
+    <string name="pause_state_retrying">ожидание повтора</string>
+    <string name="retry_in_1min">1 минута</string>
+    <string name="retry_in_2min">2 минуты</string>
+    <string name="retry_in_5min">5 минут</string>
+    <string name="retry_no_data">Нет подключения</string>
+    <string name="account_out_of_quota">Превышена дисковая квота для аккаунта</string>
+    <string name="completed_no_file">Файл не найден</string>
+    <string name="failed_bad_response">Ошибка службы</string>
+    <string name="failed_network_error">Ошибка сети</string>
+    <string name="failed_server_auth">Ошибка аутентификации</string>
+    <string name="manager_list_switcher_pending_format">Незавершенные загрузк [%d]</string>
+    <string name="manager_list_switcher_completed_format">Завершенные загрузки [%d]</string>
+    <string name="manager_pause">Приостановить загрузки</string>
+    <string name="manager_resume">Продолжить загрузки</string>
+    <string name="manager_upload_now">Загрузить сейчас</string>
+    <string name="manager_upload_later">Загрузить позже</string>
+    <string name="manager_do_not_upload">Не загружать</string>
+    <string name="manager_view_media">Показать</string>
+    <string name="manager_retry">Повторить</string>
+    <string name="manager_toast_canceled">Загрузка отменена</string>
+    <string name="manager_toast_not_canceled">Загрузка завершена</string>
+    <string name="manager_sync_all">Синхронизировать</string>
+    <string name="manager_activity_last_sync_format">"Последняя синхронизация:
+%1$s
+%2$s"</string>
+    <string name="finished_empty">Список завершенных загрузок пуст.</string>
+    <string name="notify_uploads">Загрузка c устройства</string>
+    <string name="notify_resolved">Загрузки завершены</string>
+    <string name="notify_paused">Загрузки приостановлены</string>
+    <string name="notify_activation_reminder">Загрузка с устройства не активирована</string>
+    <string name="dialog_first_wifi">Большие файлы будут загружены при подключении WLAN.</string>
+    <string name="dialog_sync_all_scanning">Поиск файлов...</string>
+    <string name="dialog_sync_all_preparing">Фотографий/видео к загрузке: %1$d/%2$d...</string>
+    <string name="dialog_sync_all_found_none">Дополнительных фотографий или видео не найдено.</string>
+    <string name="dialog_sync_all_server_error">Ошибка связи с сервером. Повторить попытку позже.</string>
+    <string name="dialog_sync_all_canceled">Отмена синхронизации</string>
+    <string name="dialog_sync_all_error_title">Синхронизировать</string>
+    <string name="manager_view_completed">Показать завершенные</string>
+    <string name="manager_view_pending">Показать незавершенные</string>
+    <string name="preference_category_title_general">Общие</string>
+    <string name="preference_title_pause_all_uploads">Приостановить все загрузки</string>
+    <string name="preference_title_need_power">Зарядка</string>
+    <string name="preference_summary_need_power">Загружать только при подключенном питании.</string>
+    <string name="preference_title_need_wifi">WLAN</string>
+    <string name="preference_summary_need_wifi">Загружать только при WLAN подключении.</string>
+    <string name="preference_category_title_photos">Фотографии</string>
+    <string name="preference_title_photos_account">Аккаунт</string>
+    <string name="preference_title_photos_upload_connectivity">Условия загрузки</string>
+    <string name="preference_title_photo_size">Размер фотографии</string>
+    <string name="preference_category_title_videos">Видео</string>
+    <string name="preference_title_videos_account">Аккаунт</string>
+    <string name="preference_title_videos_account_summary">Аккаунт для фотографий будет использоваться для загрузки видео.</string>
+    <string name="preference_title_videos_upload_connectivity">Условия загрузки</string>
+    <string name="preference_title_videos_upload_connectivity_summary">Настройки соединения для фотографий в данный момент заняты.</string>
+    <string name="preference_mobile_data_usage_for_photos_only">Только фотографии по мобильной сети</string>
+    <string name="preference_mobile_data_usage_for_all_media">Фотографии и видео по мобильной сети</string>
+    <string name="preference_mobile_data_usage_never">Фотографии и видео только при WLAN подключении</string>
+    <string name="preference_category_title_about">Сведения</string>
+    <string name="preference_title_camera_sync_version">Загрузка с устройства</string>
+    <string name="photos_upload_dimension_1600">Рекомендуется: 1600 пикселей (для публикации, распечатки и заставок)</string>
+    <string name="photos_upload_dimension_original">Исходный размер файла (минимальная скорость загрузки)</string>
+    <string name="pause_state_need_media">приостановлено - SD-карта недоступна</string>
+    <string name="summary_subtitle_paused_need_media">SD-карта недоступна</string>
+    <string name="preference_plus_title">Настройки загрузки</string>
+    <string name="preference_plus_enable_cs">Загрузка с устройства</string>
+    <string name="preference_plus_enable_cs_summary">Автоматически загружать фотографии и видео в личный web-альбом</string>
+    <string name="preference_plus_upload_status">Статус загрузки</string>
+    <string name="preference_plus_category_advanced">Дополнительно</string>
+    <string name="preference_plus_mobile_data_connection">Загрузка с мобильного устройства</string>
+    <string name="preference_plus_sync_while_roaming">Загрузки в роуминге</string>
+    <string name="preference_plus_sync_while_roaming_summary">Загружать фотографии и видео в роуминге по каналу передачи данных</string>
+    <string name="preference_plus_delay_sync_until_charging">Загрузка при зарядке</string>
+    <string name="preference_plus_delay_sync_until_charging_summary">Загружать фотографии и видео только во время зарядк</string>
+    <string name="preference_plus_sync_all">Загрузить имеющиеся фотографии</string>
+    <string name="preference_plus_sync_all_description">Загружать все имеющиеся на устройстве фотографии и видеоролики</string>
+    <string name="summary_subtitle_disabled">Отключено</string>
+    <string name="preference_summary_header_format">%1$s: %2$s</string>
+    <string name="preference_summary_uploading_percent">Загрузка (%1$d%%)</string>
+    <string name="preference_summary_uploading_format">: %1$d/%2$d</string>
+    <string name="preference_summary_uploading_paused">Приостановлено: нажать - для продолжения загрузки</string>
+    <string name="preference_plus_sync_all_prompt_title">Загрузить имеющиеся фотографии</string>
+    <string name="preference_plus_sync_all_prompt_text">Добавление фотографий и видеороликов, не загруженных из устройства в личный web-альбом, может занять некоторое время. Процесс будет проходить в фоновом режиме. Продолжить?</string>
+    <string name="preference_plus_sync_all_prompt_yes">Да</string>
+    <string name="preference_plus_sync_all_prompt_no">Нет</string>
+    <string name="choosertitle_sharevia">Способ отправки</string>
+    <string name="contextmenu_openlink">Открыть в браузере</string>
+    <string name="contextmenu_copy">Копировать</string>
+    <string name="contextmenu_copylink">Копировать URL-ссылку</string>
+    <string name="contextmenu_dial_dot">Набрать номер</string>
+    <string name="contextmenu_sms_dot">SMS-сообщение</string>
+    <string name="contextmenu_add_contact">Добавить контакт</string>
+    <string name="contextmenu_send_mail">Отправить электронное письмо</string>
+    <string name="contextmenu_map">Карта</string>
+    <string name="contextmenu_sharelink">Поделиться ссылкой</string>
+    <string name="contextmenu_help">Помощь</string>
+    <string name="contextmenu_feedback">Оставить отзыв</string>
+    <string name="more_string">еще %1$s...</string>
+    <string name="chips_waiting_for_directory_result">Ожидание контактов</string>
+    <string name="copy">Скопировать адрес электронной почты</string>
+</resources>

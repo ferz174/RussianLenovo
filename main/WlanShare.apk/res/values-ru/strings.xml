@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Общий доступ WLAN</string>
+    <string name="dlg_open_wifi_message">Включить WLAN для общего доступа?</string>
+    <string name="dlg_ok">Подтвердить</string>
+    <string name="dlg_cancel">Отмена</string>
+    <string name="connect_info_one2one">Поддерживаются только одноранговые подключения. Перед использованием необходимо закрыть все другие подключения.</string>
+    <string name="socketchannel_busy">Канал занят. Повторить попытку позже!</string>
+    <string name="dlg_request_if_send_file">Отправить: %2$s для %1$s?</string>
+    <string name="dlg_request_if_receive_file">Принять?</string>
+    <string name="dlg_sdcard_not_mounted_message">SD-карта недоступна. Перед использованием необходимо выйти из режима USB-накопителя.</string>
+    <string name="dlg_sent_file_success_notification_message">Отправлено.</string>
+    <string name="dlg_sent_file_fail_notification_message">Ошибка отправления.</string>
+    <string name="dlg_received_file_success_notification_message">Получено.</string>
+    <string name="dlg_received_file_fail_notification_message">Ошибка получения.</string>
+    <string name="sent_file_dialog">Отправлено (сохранено в папке: WlanShare):</string>
+    <string name="sent_file_fail_dialog">Ошибка отправления!</string>
+    <string name="received_file_dialog">Получено (сохранено в папке: WlanShare):</string>
+    <string name="received_file_fail_dialog">Ошибка получения!</string>
+    <string name="sending_file_notification">Общий доступ WLAN: отправка</string>
+    <string name="receiving_file_notification">Общий доступ WLAN: получение</string>
+    <string name="sent_file_result_notification">Общий доступ WLAN: отправлено</string>
+    <string name="received_file_result_notification">Общий доступ WLAN: получено</string>
+    <string name="sent_received_file_result_number_notification">"Принятых: %1$s
+Непринятых: %2$s."</string>
+    <string name="help_label">Справка</string>
+    <string name="lock_settings_picker_title">Выбрать режим блокировки экрана</string>
+    <string name="wifi_p2p_failed_rename_message">Не удалось переименовать устройство.</string>
+    <string name="wifi_p2p_peer_devices">Одноранговые устройства</string>
+    <string name="wifi_p2p_menu_searching">Поиск...</string>
+    <string name="wifi_p2p_menu_search">Поиск устройства</string>
+    <string name="wifi_p2p_menu_rename">Переименовать</string>
+    <string name="wifi_p2p_failed_connect_message">Сбой подключения.</string>
+    <string name="wifi_p2p_disconnect_multiple_message">По завершению соединения, все устройства будут отключены.</string>
+    <string name="wifi_p2p_disconnect_message">По завершению соединения, все подлкючения будут завершены.</string>
+    <string name="wifi_p2p_cancel_connect_message">Отклонить подключение?</string>
+    <string name="wifi_p2p_disconnect_title">Отключить?</string>
+    <string name="wifi_p2p_cancel_connect_title">Отменить приглашение?</string>
+    <string name="dlg_go_to_file_browser_message">Файл находится в папке WlanShare, ее можно открыть файловым менеджером!</string>
+    <string name="toast_no_send_files">Перед подключением необходимо выбрать файлы для общего доступа!</string>
+    <string name="dlg_close_bt_then_send_file">Перед отправкой необходимо выключить Bluetooth!</string>
+    <string name="open_file_fail_dialog">Неподдерживаемый тип файла!</string>
+    <string name="dlg_airplane_open_message">Перед использованием общего доступа WLAN, необходимо выключить режим Полет!</string>
+    <string name="wlanshare_share_file_name">wlanshare_content_share</string>
+    <string name="process" />
+</resources>

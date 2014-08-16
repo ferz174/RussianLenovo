@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Цепь ключей</string>
+    <string name="title_no_certs">Сертификаты не найдены</string>
+    <string name="title_select_cert">Выбрать сертификат</string>
+    <string name="requesting_application">Приложение %s запрашивает сертификат. Выбранный сертификат предоставляет приложению возможность использовать этот идентификатор с серверами сейчас и в будущем.</string>
+    <string name="requesting_server">Приложение определило запрашиваемый сервер как %s, но если вы доверяете приложению следует предоставлять только доступ к сертификату.</string>
+    <string name="install_new_cert_message">Вы можете установить сертификаты от PKCS#12 из файлов %1$s или %2$s, расположенных во внешнем хранилище.</string>
+    <string name="install_new_cert_button_label">Установка</string>
+    <string name="allow_button">Разрешить</string>
+    <string name="deny_button">Отказать</string>
+</resources>

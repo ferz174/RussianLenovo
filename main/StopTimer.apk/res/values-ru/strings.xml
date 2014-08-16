@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Секундомер</string>
+    <string name="start">Старт</string>
+    <string name="pause">Пауза</string>
+    <string name="resume">Продолжить</string>
+    <string name="reset">Сброс</string>
+    <string name="loop">Цикл</string>
+    <string name="save_record">Сохранить</string>
+    <string name="my_record">Записи</string>
+    <string name="file_save_fail">Сбой сохранения!</string>
+    <string name="file_exist">запись уже существует!</string>
+    <string name="sdcard_no_exist">SD-карта отсутствует!</string>
+    <string name="file_creat_fail">Сбой создания файла!</string>
+    <string name="no_record_file">Не удалось сохранить!</string>
+    <string name="record_save_success">Сохранено!</string>
+    <string name="record_save_fail">Сбой сохранения!</string>
+    <string name="record">Запись</string>
+    <string name="delete_record">Удалить запись</string>
+    <string name="show_record">Показать запись</string>
+    <string name="delete_all_record">Удалить все записи</string>
+    <string name="ensure_to_delete">Удалить файл записи?</string>
+    <string name="ensure_to_delete_all">Удалить все файлы записи?</string>
+    <string name="finish_deleting">Удалено!</string>
+    <string name="delete_progress_message">Удаление, необходимо подождать!</string>
+    <string name="delete_fail">Сбой удаления!</string>
+    <string name="no_record">Нет записи!</string>
+    <string name="no_get_file">Не удалось получить файл!</string>
+    <string name="reset_notification">Уведомление</string>
+    <string name="reset_notification_message">Сохранить запись перед сбросом?</string>
+    <string name="back_notification_message">Сохранить запись перед возвратом?</string>
+    <string name="sdcard_full">SD-карта заполнена， не удалось сохранить запись!</string>
+    <string name="notification_yes">Да</string>
+    <string name="notification_no">Нет</string>
+    <string name="max_loop_number">Количество циклов достигло максимума, требуется сбросить счетчик!</string>
+    <string name="cancel">Отмена</string>
+    <string name="done">Готово</string>
+    <string name="rename">Имя</string>
+    <string name="overwrite_same_file_confirm">Запись с таким именем уже существует, перезаписать?</string>
+</resources>

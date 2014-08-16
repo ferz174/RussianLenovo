@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_starred_dialog">
+        <item>@string/removeStarred</item>
+        <item>@string/lookUpInfo</item>
+        <item>@string/cancel</item>
+    </string-array>
+    <string-array name="contact_more_item">
+        <item>@string/show_contacts</item>
+        <item>@string/import_export_contacts</item>
+        <item>@string/fast_dial</item>
+        <item>@string/account</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Организация</item>
+        <item>Примечание</item>
+    </string-array>
+</resources>

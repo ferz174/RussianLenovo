@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Привязка местоположения WLAN</string>
+    <string name="setting_activity">Привязка местоположения WLAN</string>
+    <string name="dialog_title">Подключение WLAN</string>
+    <string name="dialog_text">Местоположение связано с точкой доступа, включить WLAN?</string>
+    <string name="disable_dialog_title">Отключение WLAN</string>
+    <string name="disable_dialog_text">Местоположение вне зоны действия точки доступа, отключить WLAN?</string>
+    <string name="show_dialog">Не напоминать</string>
+    <string name="disable_show_dialog">Не напоминать</string>
+    <string name="wifi_enable_text">Уведомление о приближении к точке доступа</string>
+    <string name="wifi_enable_summary">Показывать уведомление о включении WLAN при входе в зону действия точки доступа и возможности передачи данных GPRS</string>
+    <string name="wifi_disable_text">Уведомление об отдалении от точки доступа</string>
+    <string name="wifi_disable_summary">Показывать уведомление о выключении WLAN при выходе из зоны действия точки доступа</string>
+    <string name="wifi_setting_summary">Привязать местоположение при входе в зону действия точки доступа и возможности передачи данных GPRS</string>
+    <string name="wifi_popup_tip">Запрос</string>
+    <string name="wifi_auto_enable">Автовключение</string>
+    <string name="wifi_auto_disable">Автовыключение</string>
+    <string name="wifi_popup_0">Уведомлять при входе в зону действия точки доступа</string>
+    <string name="wifi_popup_1">Подключаться автоматически при входе в зону действия точки доступа</string>
+    <string name="wifi_popup_2">Не напоминать</string>
+</resources>

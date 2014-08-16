@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">Контактов с номерами телефонов: %d</item>
+        <item quantity="one">Контактов с номерами телефонов: 1</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Контактов: %d</item>
+        <item quantity="one">Контактов: 1</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">Найдено: %d</item>
+        <item quantity="one">Найдено: 1</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Найдено: %d</item>
+        <item quantity="one">Найдено: 1</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">Объединен с %0$d</item>
+        <item quantity="one">Не объединен</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">Групп: %0$d</item>
+        <item quantity="one">Групп: 1</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">Контактов в %2$s: %1$d</item>
+        <item quantity="one">Контактов в %2$s: %1$d</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">Контактов: %1$d</item>
+        <item quantity="one">Контактов: %1$d</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Голосовых сообщений: %1$d</item>
+        <item quantity="one">Голосовых сообщений: 1</item>
+    </plurals>
+    <plurals name="searchMatchContacts">
+        <item quantity="other">Совпадений контактов: %d</item>
+        <item quantity="one">Совпадений контактов: 1</item>
+    </plurals>
+</resources>

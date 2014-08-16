@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Музыка FX</string>
+    <string name="no_effects">Эффекты недоступны</string>
+    <string name="main_toggle_effects_title">Музыкальные эффекты</string>
+    <string name="eq_dialog_title">Эквалайзер</string>
+    <string name="headset_plug">Для эффектов необходимо подключить наушники</string>
+    <string name="bass_boost_strength">Усилитель басов (НЧ)</string>
+    <string name="virtualizer_strength">Эффект 3D</string>
+    <string name="pr_title">Реверберация:</string>
+    <string name="pr_summary">Дополнительные эффекты реверберации</string>
+    <string name="pr_dialog_title">Предустановки реверберации</string>
+    <string name="setup">Установить</string>
+    <string name="ci_extreme">Усилитель FX</string>
+    <string name="user">Пользовательское</string>
+    <string name="picker_title">Панель управления музыкальными эффектами</string>
+</resources>

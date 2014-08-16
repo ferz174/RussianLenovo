@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_smiley_texts">
+        <item>:-)</item>
+        <item>:-(</item>
+        <item>;-)</item>
+        <item>:-P</item>
+        <item>=-O</item>
+        <item>:-*</item>
+        <item>:O</item>
+        <item>B-)</item>
+        <item>:-$</item>
+        <item>:-!</item>
+        <item>:-[</item>
+        <item>O:-)</item>
+        <item>:-\\</item>
+        <item>":'("</item>
+        <item>:-X</item>
+        <item>:-D</item>
+        <item>o_O</item>
+        <item>&amp;amp;lt;3</item>
+        <item>x-(</item>
+        <item>:-/</item>
+        <item>:-I</item>
+    </string-array>
+    <string-array name="default_smiley_names">
+        <item>Радость</item>
+        <item>Печаль</item>
+        <item>Подмигивание</item>
+        <item>Показывает язык</item>
+        <item>Удивление</item>
+        <item>Поцелуй</item>
+        <item>Крик</item>
+        <item>Крутой</item>
+        <item>Не болтай попусту</item>
+        <item>В замешательстве</item>
+        <item>Смущение</item>
+        <item>Ангел</item>
+        <item>Нерешительный</item>
+        <item>Плач</item>
+        <item>Не скажу</item>
+        <item>Смех</item>
+        <item>Озадаченный</item>
+        <item>Сердце</item>
+        <item>Безумный</item>
+        <item>Ухмылка</item>
+        <item>Бесстрастное лицо</item>
+    </string-array>
+    <string-array name="default_quick_texts">
+        <item>Где Вы находитесь?</item>
+        <item>Чем занимаешься?</item>
+        <item>Пожалуйста, перезвоните.</item>
+        <item>Я на совещание.</item>
+        <item>Перезвоню позже.</item>
+        <item>Я в порядке.</item>
+        <item>Скоро буду дома.</item>
+        <item>Скоро буду.</item>
+        <item>Будьте там или поблизости!</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_0003">false</item>
+    <item type="array" name="APKTOOL_DUMMY_0004">false</item>
+    <string-array name="select_dialog_items">
+        <item>1 сек</item>
+        <item>2 сек</item>
+        <item>3 сек</item>
+        <item>4 сек</item>
+        <item>5 сек</item>
+        <item>6 сек</item>
+        <item>7 сек</item>
+        <item>8 сек</item>
+        <item>9 сек</item>
+        <item>10 сек</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item>Включено</item>
+        <item>Только в беззвучном режиме</item>
+        <item>Выключено</item>
+    </string-array>
+    <string-array name="prefValues_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+    <string-array name="prefEntries_content">
+        <item>Все</item>
+        <item>SIM-карта 1</item>
+        <item>SIM-карта 2</item>
+    </string-array>
+    <string-array name="prefValues_content">
+        <item>ALL</item>
+        <item>SLOT1</item>
+        <item>SLOT2</item>
+    </string-array>
+    <string-array name="prefEntries_orderby">
+        <item>Время</item>
+        <item>Номер телефона</item>
+    </string-array>
+    <string-array name="prefValues_orderby">
+        <item>TIME</item>
+        <item>NUMBER</item>
+    </string-array>
+    <string-array name="validity_entries">
+        <item>1 ч.</item>
+        <item>6 ч.</item>
+        <item>24 ч.</item>
+        <item>2 д.</item>
+        <item>1 нед.</item>
+        <item>Бессрочно</item>
+    </string-array>
+    <string-array name="validity_values">
+        <item>11</item>
+        <item>71</item>
+        <item>167</item>
+        <item>168</item>
+        <item>193</item>
+        <item>255</item>
+    </string-array>
+    <string-array name="prefEntries_mms_validity">
+        <item>1 ч.</item>
+        <item>12 ч.</item>
+        <item>24 ч.</item>
+        <item>2 д.</item>
+        <item>Бессрочно</item>
+    </string-array>
+    <string-array name="prefValues_mms_validity">
+        <item>3600</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>172800</item>
+        <item>604800</item>
+    </string-array>
+</resources>

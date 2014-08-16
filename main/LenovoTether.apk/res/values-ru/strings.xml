@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Персональная точка доступа</string>
+    <string name="wifi_tether_configure_ap_text">Настроить основную точку беспроводной сети</string>
+    <string name="wifi_tether_configure_subtext">SSID:%1$s\u0009Безопасность:%2$s</string>
+    <string name="wifi_tether_configure_ssid_default">Основная точка Android</string>
+    <string name="wifi_tether_ssid_too_long">Длина идентификатора SSID не должна превышать 32 символа.</string>
+    <string name="wifi_tether_settings_title_both">Персональная точка доступа</string>
+    <string name="wifi_tether_person_ap_checked_title">Персональная точка доступа</string>
+    <string name="wifi_tether_person_ap_checked_summary">Другие пользователи могут найти ваш идентификатор SSID для совместного доступа к сети через поиск беспроводной сети.</string>
+    <string name="wifi_tether_person_ap_unchecked_summary">Откройте для себя Персональную точку доступа для Интернет-подключения других устройств через мобильную сеть смартфона. При работе устройств в сети интернет через Ваш смартфон Вы оплачиваете траффик согласно тарифа вашего оператора сотовой связи.</string>
+    <string name="wifi_tether_settings_title">Наст. осн. точку беспроводной сети</string>
+    <string name="wifi_tether_settings_summary_no_set">Установка идентификатора SSID, безопасности и пароля</string>
+    <string name="wifi_tether_configure_subtext_new">SSID:%1$s\u0009Безопасность:%2$s\u0009Пароль:%3$s</string>
+    <string name="wifi_tether_settings_wifi_intro_title">Подключение WLAN</string>
+    <string name="wifi_tether_settings_bluetooth_intro_title">Подключение Bluetooth</string>
+    <string name="wifi_tether_settings_bluetooth_intro_summary">"1. Сопряжение телефона и компьютера. . Выберите подключение через Bluetooth и проверьте его. 
+3. Подключите телефон к компьютеру через Bluetooth-соединение."</string>
+    <string name="wifi_tether_settings_wifi_intro_summary">"1. Выберите настройку точки доступа в списке сетевых служб с вашего компьютера.
+2. Введите пароль при запросе.
+3. Настройте точку доступа и пароль в меню Настройка беспроводной сети. 
+"</string>
+    <string name="wifi_tether_settings_usb_intro_title">Подключение USB</string>
+    <string name="wifi_tether_settings_usb_intro_summary">"1. Подключите телефон к компьютеру через кабель. 
+2. Выберите настройку точки доступа в списке сетевых служб с вашего компьютера. 
+3. Вы не сможете получить доступ к SD-карте с компьютера в сеансе работы через USB-подключение. 
+4. Привязка доступна в окружении систем Windows Vista, Window7 и Linux.
+"</string>
+    <string name="wifi_tether_settings_function_summary">Описание функций</string>
+    <string name="tether_select_title">Выберите способ подключения</string>
+    <string name="tether_select_wifi">Подключение WLAN</string>
+    <string name="tether_select_bluetooth">Подключение Bluetooth</string>
+    <string name="tether_select_usb">Подключение USB</string>
+    <string name="tether_select_usb_connected">Кабель подключен</string>
+    <string name="tether_select_usb_disconnected">Кабель не подключен</string>
+    <string name="tether_settings_title_usb">Привязка</string>
+    <string name="tether_settings_title_wifi">Портативная основная точка</string>
+    <string name="tether_settings_title_both">Привязка &amp; портативной основной точки</string>
+    <string name="tether_settings_summary_usb">Совместное использование мобильного информационного соединения телефона через USB</string>
+    <string name="tether_settings_summary_wifi">Совместное использование мобильного информационного соединения телефона через портативную основную точку беспроводной сети</string>
+    <string name="tether_settings_summary_both">Совместное использование мобильного информационного соединения телефона через портативную основную точку беспроводной сети</string>
+    <string name="wifi_cancel">Отмена</string>
+    <string name="wifi_save">Сохранить</string>
+    <string name="wifi_starting">Открывается...</string>
+    <string name="wifi_stopping">Закрывается...</string>
+    <string name="wifi_secured">Защитить на %1$s</string>
+    <string name="wifi_secured_with_status">%2$s, защитить на %1$s</string>
+    <string name="wifi_not_in_range">Недопустимое значение</string>
+    <string name="wifi_error">Сбой</string>
+    <string name="wifi_disabled">Отключено</string>
+    <string name="wifi_remembered">Сохранено</string>
+    <string name="wifi_ssid">Сетевой идентификатор SSID</string>
+    <string name="wifi_security">Безопасность</string>
+    <string name="wifi_password">Пароль</string>
+    <string name="wifi_show_password">Показывать пароль.</string>
+    <string name="wifi_tether_person_ap_usb_checked_summary">Сетевые устройства, подключенные через USB могут выполнять навигацию по Интернету через ваш телефон.</string>
+    <string name="credentials_password_too_short">Пароль должен содержать не менее 8 символов.</string>
+    <string name="bluetooth_tethering_errored_subtext">Сеть не является общей</string>
+    <string name="wifi_security_wapi_certificate">Сертификат WAPI</string>
+    <string name="bluetooth_tether_ok_summary">Другие пользователи могут найти ваше устройство Bluetooth для совместного доступа к сети через поиск Bluetooth-подключений.</string>
+    <string name="tethered_notification_title">Персональная основная точка включена</string>
+    <string name="tethered_notification_message">Коснитесь для настройки</string>
+    <string name="tether_usb_adb_hit">Закройте точную настройку USB</string>
+    <string name="tether_about_title">Описание функций</string>
+    <string name="tether_about_wifi_title">Подключение WLAN</string>
+    <string name="tether_about_wifi_content">"1. Выберите точку доступа в списке сетевых служб с вашего компьютера. 
+2. Введите пароль при запросе. 
+3. Вы можете настроить точку доступа и пароль в меню Настройка WLAN."</string>
+    <string name="tether_about_bt_title">Подключение Bluetooth</string>
+    <string name="tether_about_bt_content">"1. Сопряжение телефона и компьютера. 
+2. После включения функции bluetooth выберите использовать подключение bluetooth. 
+3. Подключите телефон к компьютеру через Bluetooth-соединение."</string>
+    <string name="tether_about_usb_title">Подключение USB</string>
+    <string name="tether_about_usb_content">"1. Подключите телефон к компьютеру через кабель. 
+2. Выберите точку доступа в списке сетевых служб. 
+3. Вы не сможете подключить SD-карту телефона к компьютеру во время сеанса работы через USB-подключение. 
+4. Привязка относится к системам Windows Vista, Windows 7 и Linux."</string>
+</resources>

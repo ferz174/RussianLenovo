@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Будильник включится менее чем через - 1 м.</item>
+        <item>Будильник включится через - %1$s</item>
+        <item>Будильник включится через - %2$s</item>
+        <item>Будильник включится через - %1$s %2$s</item>
+        <item>Будильник включится через - %3$s</item>
+        <item>Будильник включится через - %1$s %3$s</item>
+        <item>Будильник включится через - %2$s %3$s</item>
+        <item>Будильник включится через - %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>на 5 минут</item>
+        <item>на 10 минут</item>
+        <item>на 15 минут</item>
+        <item>на 20 минут</item>
+        <item>на 25 минут</item>
+        <item>на 30 минут</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Выключено</item>
+        <item>Через 1 минуту</item>
+        <item>Через 5 минут</item>
+        <item>Через 10 минут</item>
+        <item>Через 15 минут</item>
+        <item>Через 20 минут</item>
+        <item>Через 25 минут</item>
+        <item>Через 30 минут</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Без действия</item>
+        <item>Отложить</item>
+        <item>Выключить</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="snooze_repeat_entries">
+        <item>1 раз</item>
+        <item>2 раза</item>
+        <item>3 раза</item>
+        <item>5 раз</item>
+        <item>10 раз</item>
+    </string-array>
+    <string-array name="snooze_repeat_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_0009">false</item>
+    <item type="array" name="APKTOOL_DUMMY_000a">false</item>
+</resources>
